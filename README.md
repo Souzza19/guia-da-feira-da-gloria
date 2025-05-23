@@ -46,5 +46,4 @@ Rafael Fabiano do Nascimento Matrícula: 2024100123   Turma: 952-116783 - Centro
 
  
  
- Link para GitHub Pages 
-https://souzza19.github.io/guia-da-feira-da-glória/
+
