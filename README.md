@@ -44,6 +44,7 @@ Pablo de matos dos Santos   Matrícula: 2024101352   Turma: 952-116783 - Centro 
 
 Rafael Fabiano do Nascimento Matrícula: 2024100123   Turma: 952-116783 - Centro Universitário Carioca 
 
- 
+ Link para GitHub Pages 
+ https://souzza19.github.io/guia-da-feira-da-gloria/
  
 
