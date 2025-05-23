@@ -1,0 +1,124 @@
+/* Cores Verão - Guia da Feira da Glória */
+body {
+    background-color: #FFF8DC; /* Cornsilk - um bege amarelado claro e quente */
+    color: #5D4037;           /* SaddleBrown - marrom escuro para o texto principal, bom contraste */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-color: #FFD700; /* Gold - dourado vibrante para o cabeçalho */
+    color: #5D4037;           /* SaddleBrown - texto escuro no fundo dourado para contraste */
+    padding: 25px 20px;
+    text-align: center;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #CD853F; /* Peru - um marrom médio, terroso e quente */
+}
+
+#main-nav ul li {
+    display: inline;
+}
+
+.nav-button {
+    background-color: #CD853F; /* Mesmo fundo da nav, ou pode ser transparent */
+    color: #FFFFFF;           /* Texto branco nos botões da navegação */
+    border: none;
+    padding: 12px 22px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+}
+
+.nav-button:hover {
+    background-color: #A0522D; /* Sienna - um tom mais escuro de marrom para o hover */
+}
+
+.secao {
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: #FFFFFF; /* Fundo branco para as seções de conteúdo */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra um pouco mais pronunciada */
+}
+
+.secao h2 {
+    color: #D2691E;           /* Chocolate - um marrom avermelhado para os títulos das seções */
+    margin-bottom: 20px;
+    font-weight: bold;        /* Títulos em negrito */
+}
+
+.gallery-item {
+    border: 1px solid #F0E68C; /* Khaki - uma borda suave e clara para itens da galeria */
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #FFFACD; /* LemonChiffon - fundo muito claro para itens da galeria */
+    border-radius: 6px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #EEE8AA; /* PaleGoldenrod - linha sutil abaixo da imagem */
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.gallery-item figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #8B4513; /* SaddleBrown - mais escuro para legendas, bom no LemonChiffon */
+}
+
+.component-box {
+    background-color: #F5F5DC; /* Beige - um bege neutro e claro para caixas de componentes */
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    height: 100%;
+}
+
+.custom-button { /* Exemplo de botão, usado no formulário de contato (se existisse) ou outros */
+    background-color: #FFD700; /* Gold - como o header */
+    color: #5D4037;           /* SaddleBrown - texto escuro */
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #FFC700; /* Um dourado um pouco mais escuro no hover */
+}
+
+.main-footer {
+    text-align: center;
+    padding: 25px 20px;
+    background-color: #5D4037; /* SaddleBrown - rodapé escuro */
+    color: #FFF8DC;           /* Cornsilk - texto claro no rodapé escuro */
+    margin-top: 30px;
+}
+
+article h3 {
+    color: #A0522D; /* Sienna - para subtítulos dentro de artigos */
+    margin-top: 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

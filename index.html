@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia da Feira da Glória - Rio de Janeiro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Guia da Feira da Glória</h1>
+        <p>Seu portal para uma das feiras mais tradicionais e animadas do Rio!</p>
+    </header>
+
+    <nav role="navigation" id="main-nav">
+        <ul>
+            <li><button onclick="mostrarSecao('inicio')" class="nav-button">Início</button></li>
+            <li><button onclick="mostrarSecao('sobre')" class="nav-button">Sobre a Feira</button></li>
+            <li><button onclick="mostrarSecao('encontrar')" class="nav-button">O Que Encontrar</button></li>
+            <li><button onclick="mostrarSecao('dicas')" class="nav-button">Dicas Úteis</button></li>
+        </ul>
+    </nav>
+
+    <main class="container mt-4">
+        <section id="inicio" class="secao">
+            <h2>Bem-vindo à Feira da Glória!</h2>
+            <article>
+                <h3>Um Domingo Clássico Carioca</h3>
+                <p>Descubra os sabores, cores e sons da Feira da Glória, um ponto de encontro cultural e gastronômico no coração do Rio de Janeiro. Realizada aos domingos, esta feira é um programa imperdível para moradores e turistas.</p>
+                <figure class="gallery-item">
+                    <img src="images/feira_cameras_vintage.jpg" alt="Banca com câmeras fotográficas antigas e clássicas em exposição na Feira da Glória, com letreiros de bebidas ao fundo.">
+                    <figcaption>Achados vintage e o clima descontraído da feira.</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <section id="sobre" class="secao" style="display: none;">
+            <h2>Sobre a Feira</h2>
+            <p>Localizada na Avenida Augusto Severo, no bairro da Glória, a feira acontece tradicionalmente aos domingos, geralmente das 7h às 15h, com eventos musicais que podem se estender.</p>
+            <p>É um espaço que mistura a tradicional feira livre, com barracas de frutas, verduras e legumes frescos, com um vibrante mercado de artesanato, gastronomia e apresentações culturais.</p>
+            <figure class="gallery-item mt-3">
+                <img src="images/feira_rua_festa_decorada.jpg" alt="Rua animada e decorada com bandeirinhas, repleta de visitantes na Feira da Glória.">
+                <figcaption>A atmosfera vibrante e festiva da feira.</figcaption>
+            </figure>
+            <p class="mt-3">Horário: Domingos, das 07h às 19h.  <time datetime="PT8H">(Duração aproximada de 12 horas para a feira principal)</time></p>
+        </section>
+
+        <section id="encontrar" class="secao" style="display: none;">
+            <h2>O Que Encontrar</h2>
+            <p>A Feira da Glória é um universo de descobertas! Prepare-se para encontrar:</p>
+            <div class="row">
+                <div class="col-md-4 component-box">
+                    <h3>Gastronomia</h3>
+                    <figure class="gallery-item mb-3">
+                        <img src="images/feira_barraca_comida_chef.jpg" alt="Chef preparando sanduíches e grelhados em uma movimentada barraca de comida na Feira da Glória.">
+                        <figcaption>Sabores autênticos preparados na hora.</figcaption>
+                    </figure>
+                    <p>Delícias para todos os gostos: pastéis, tapiocas, acarajé, comidas regionais e internacionais, além de sucos e cervejas artesanais.</p>
+                </div>
+                <div class="col-md-4 component-box">
+                    <h3>Artesanato e Produtos</h3>
+                    <figure class="gallery-item mb-3">
+                        <img src="images/feira_livros_discos.jpg" alt="Banca de livros e discos de vinil antigos e usados na Feira da Glória.">
+                        <figcaption>Livros, vinis e raridades para colecionadores.</figcaption>
+                    </figure>
+                    <p>Grande variedade de artesanato local, roupas, bijuterias, acessórios, discos de vinil e produtos de brechó.</p>
+                </div>
+                <div class="col-md-4 component-box">
+                    <h3>Cultura e Lazer</h3>
+                    <figure class="gallery-item mb-3">
+                        <img src="images/feira_bolsa_criativa_humor.jpg" alt="Bolsa de tecido com frase humorística brasileira à venda em uma barraca na Feira da Glória.">
+                        <figcaption>Criatividade e bom humor nos produtos da feira.</figcaption>
+                    </figure>
+                    <p>Música ao vivo com rodas de samba, chorinho e DJs. Um ótimo lugar para passear e absorver a cultura carioca.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="dicas" class="secao" style="display: none;">
+            <h2>Dicas Úteis</h2>
+            <div class="row">
+                <aside class="col-md-5 component-box">
+                    <h3>Planeje sua Visita</h3>
+                    <ul>
+                        <li><strong>Melhor horário:</strong> Chegue cedo para evitar multidões e encontrar mais variedade de produtos frescos. Para a música e o agito, o período da tarde é ideal.</li>
+                        <li><strong>Pagamento:</strong> Embora alguns aceitem cartão, leve dinheiro em espécie, pois nem todas as barracas possuem maquininha.</li>
+                        <li><strong>O que levar:</strong> Protetor solar, chapéu, água e sacolas retornáveis para suas compras.</li>
+                        <li><strong>Paciência:</strong> A feira pode ficar bem cheia, especialmente em dias ensolarados.</li>
+                    </ul>
+                </aside>
+                <div class="col-md-7">
+                    <p>A Feira da Glória é um programa para todas as idades. Aproveite para experimentar novos sabores, conversar com os feirantes e artistas, e sentir a verdadeira alma carioca.</p>
+                    <figure class="gallery-item">
+                        <img src="images/feira_gloria_area_mesas.jpg" alt="Pessoas sentadas em mesas confraternizando na Feira da Glória, com placa de identificação da feira.">
+                        <figcaption>Ponto de encontro .</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
